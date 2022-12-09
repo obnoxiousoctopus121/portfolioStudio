@@ -1,0 +1,296 @@
+/* work-sans-regular - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('fonts/work-sans-v18-latin (1)/work-sans-v18-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/work-sans-v18-latin (1)/work-sans-v18-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* work-sans-700 - latin */
+  @font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('fonts/work-sans-v18-latin (1)/work-sans-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/work-sans-v18-latin (1)/work-sans-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* lora-regular - latin */
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13pt;
+    src: local(''),
+         url('fonts/lora-v26-latin/lora-v26-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/lora-v26-latin/lora-v26-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+ 
+
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+  /* .bgrd{
+    width: 100%;
+    background: url("images/bground.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    padding-top: 4vw;
+    overflow: hidden;
+  } */
+
+
+.main{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("images/bground-3.jpg");
+    width: 1000pt;
+    height: 500pt;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+
+}
+
+
+.main::before{
+
+    opacity: 0.2;
+}
+ 
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* background-color: lightcyan; */
+
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+   
+    /* #background-color: lavender; */
+    
+
+}
+.flex-item{
+    padding: 5pt;
+    display: flex;
+    
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    
+   
+    /* background-color: ivory; */
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    /* background-color: lightsteelblue; */
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30pt;
+    margin-right: 30pt;
+}
+.row-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.personas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    
+   
+}
+
+.iterative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50pt;
+    padding-bottom: 30pt;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.diagram{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.iterative-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
+}
+.iterdesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.abdesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.ab-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
+}
+.ab{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50pt;
+    padding-bottom: 30pt;
+}
+
+h1{
+    font-family: "Work Sans";
+    
+    font-size: 96pt;
+    
+}
+
+h2{
+    font-family: "Work Sans";
+    font-size: 70pt;
+    
+   
+}
+h3{
+    font-family: "Work Sans";
+    font-size: 70pt;
+    text-align: center;
+    font-weight: 800;
+    justify-content: center;
+    padding-top: 100pt;
+    margin-bottom: 100pt;
+}
+h4{
+    font-family: "Work Sans";
+    font-size: 50pt;
+    text-align: left;
+}
+
+p{
+    font-family: "Lora";
+    font-size: 20pt;
+    
+    /* text-align: left;
+    justify-content: left; */
+    
+}
+
+
+/* .intro{
+    
+    flex-direction: row;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    
+    opacity: 1;
+    font-size: 96px;
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+.about{
+    
+    flex-direction: row;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 96px;
+    grid-column: 2;
+    grid-row: 2;
+    
+
+}
+.personas{
+    text-align: left;
+    grid-column-start: 2;
+}
+p{
+    
+    text-align: left;
+    align-content: left;
+    font-family: "Lora", cursive;
+    padding-right: 0.5rem;
+    font-size: 40px;
+}
+
+h2{
+    
+
+    text-align: center;
+    align-content: center;
+    font-family: "Work Sans";
+    font-size: 96px;
+    grid-row: 3;
+    grid-column: 1 / 3;
+}
+    
+
+
+
+
+li{
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+} */
+
+nav{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    grid-column: 1 / 3;
+    grid-row: 1 ;
+    
+}
+
